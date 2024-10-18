@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .video-section {
+            flex: 4;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #fff;
+            padding: 10px;
+            border-left: 1px solid #ddd;
+        }
+        .video {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .video img {
+            width: 100%;
+        }
+        .video-title {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>YouTube Clone</h1>
+</header>
+
+<div class="container">
+    <div class="video-section">
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="Video Thumbnail">
+            <div class="video-title">Video Title 1</div>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="Video Thumbnail">
+            <div class="video-title">Video Title 2</div>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="Video Thumbnail">
+            <div class="video-title">Video Title 3</div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h2>Trending</h2>
+        <div>Trending Video 1</div>
+        <div>Trending Video 2</div>
+        <div>Trending Video 3</div>
+    </div>
+</div>
+
+</body>
+</html>
